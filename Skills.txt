@@ -1,0 +1,17 @@
+Technical Skills:-
+
+Advance Java                  	:	J2EE, Servlet, JDBC, JSP, Hibernate, Spring
+Programing Languages    		:	C, Java
+Android Developement			:	Android Studio
+Web Technologies       		    :	HTML5, Java Script, AJAX, SEO
+Databases                  		:	MySql, SQL Server, MongoDB
+IDEs Known                 		:	My Eclipse, IntelliJ Idea 
+Operating Systems          		:   Windows 7 / 8 / 8.1 / 10, Linux
+Multimedia Tools           	    :	Adobe Photoshop
+
+
+Do open source projects
+
+Show only what you really know
+
+Know well what you  know
