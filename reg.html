@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HitsPoint - Registration</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/datepicker.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/.jsjs/bootstrap-datepicker.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+	<h2>Registration Form</h2>
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label class=" col-sm-2 control-label " for="email">Name</label>
+			<div class="col-sm-6">
+			<input type="text" class="form-control" placeholder="First Name" name="uname">
+			</div>
+		</div>
+	
+		<div class="form-group">
+		  <label class="control-label col-sm-2" for="email">E-mail</label>
+		  <div class="col-sm-6">
+			<input type="text" class="form-control" placeholder="Email" name="mail">
+		  </div>
+		</div>
+	
+		<div class="form-group">
+			<label for="" class="col-sm-2 control-label">Gender:</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="gender" id="gender1" value="male">Male
+					</label>
+					<label class="radio-inline">
+					<input type="radio" name="gender" id="gender2" value="female">Female
+					</label>
+				</div>
+		</div>
+
+		<div class="form-group">
+			<label class=" col-sm-2 control-label " for="email">Interest</label>
+			<div class="col-sm-6">
+				<input type="text" class="form-control" placeholder="Interest" name="interest">
+			</div>
+		</div>
+ 
+		<div class="form-group">
+			<label for="dob" class="col-sm-2 control-label">DOB:</label>
+				<div class="col-sm-6">
+					<input type="text" name="dob" class="form-control datepicker" id="dob" placeholder=" Date of Birth">
+				</div>
+		</div>
+ 
+		<div class="form-group">
+			<label for="userName" class="col-sm-2 control-label">Password</label>
+			<div class="col-sm-6">
+				<input type="email" name="userName" class="form-control" id="userName" placeholder="User Name">
+			</div>
+		</div>
+
+ 
+		<div class="form-group">
+			<label for="passwd" class="col-sm-2 control-label">Confirm Password</label>
+			<div class="col-sm-6">
+				<input type="password" name="passwd" class="form-control" id="passwd" placeholder="Password">
+			</div>
+		</div>
+		<div class="form-group">        
+		  <div class="col-sm-offset-2 col-sm-10">
+			<button type="submit" class="btn btn-default">Submit</button>
+		  </div>
+		</div>
+  </form>
+</div>
+
+</body>
+</html>
